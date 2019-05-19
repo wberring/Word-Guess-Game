@@ -23,7 +23,8 @@
 
 var wins = 0;
 var losses = 0;
-var guesses = 10;   
+var guesses = 10; 
+var guessSoFar = []; 
 var rchar = random_character();
 console.log("random character is: " + rchar);
 
@@ -32,6 +33,7 @@ document.onkeypress = function(event) {
 
     if(userGuess === rchar){
         wins++;
+        alert("You won!");
     }else{
         guesses--;
     }
@@ -43,7 +45,7 @@ document.onkeypress = function(event) {
     document.getElementById('wins').innerHTML = "Wins: " + wins;
     document.getElementById('losses').innerHTML = "losses: " + losses;
     document.getElementById('guessesLeft').innerHTML = "Guesses left: " + guesses;
-
+    document.getElementById('guessesSoFar').innerHTML = "Your guesses so far: " + "," + guess;
 }  // moved to below the innerHTML update
 
 
