@@ -1,0 +1,38 @@
+
+
+h1{
+    font-family: arial, helvetica, "san serif";
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+h2{
+    font-family: arial, helvetica, "san serif";
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#wins {
+    font-family: arial, helvetica, "san serif";
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#losses {
+    font-family: arial, helvetica, "san serif";
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#guessesLeft {
+    font-family: arial, helvetica, "san serif";
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#guessSoFar {
+    font-family: arial, helvetica, "san serif";
+    font-size: 16px;
+    margin-top: 10px;
+}
